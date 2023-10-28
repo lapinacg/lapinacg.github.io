@@ -14,12 +14,12 @@ var ikagakaConfig = {
      */
     console: true,
     /**
-     * 起動時に表示する画像
+     * 起動時に表示する画像"./img/ikagaka-loading.png"
      *
      * 表示しない場合はnullを指定してください。
      * 表示位置などはcssの.ikagaka-loading-imageの記述で調整してください。
      */
-    loadingImage: "./img/ikagaka-loading.png",
+    loadingImage: null,
     /**
      * ベースウェア準備完了後処理
      *
@@ -38,11 +38,11 @@ var ikagakaConfig = {
      *
      * 最低1つないとエラーになります。
      */
-    initialGhosts: ["ikaga"],
+    initialGhosts: ["mayura"],
     /**
      * 最初に起動するバルーンディレクトリ名（＝install.txtのdirectoryエントリ名）
      */
-    initialBalloonpath: "origin",
+    initialBalloonpath: "nisebagu4",
     /**
      * 初期にインストールするnarのパス配列
      *
@@ -50,9 +50,9 @@ var ikagakaConfig = {
      * またnarは同一ドメインのサイト上にある必要があります。
      */
     initialNars: [
-        "./vendor/nar/origin.nar",
-        "./vendor/nar/ikaga.nar",
-        "./vendor/nar/touhoku-zunko_or__.nar",
+        "./vendor/nar/freeballoon_nisebagu4.nar",
+        "./vendor/nar/mayura_v330.nar",
+        "./vendor/nar/toxic666.nar",
     ],
 };
 
