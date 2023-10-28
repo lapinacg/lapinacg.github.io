@@ -126,9 +126,9 @@ $(function() {
     };
   })(this);
   fs_root = 'ikagaka';
-  balloon_nar = './vendor/nar/origin.nar';
-  ghost_nar = './vendor/nar/ikaga.nar';
-  ghost_nar2 = './vendor/nar/touhoku-zunko_or__.nar';
+  balloon_nar = './vendor/nar/freeballoon_nisebagu4.nar';
+  ghost_nar = './vendor/nar/mayura_v330.nar';
+  ghost_nar2 = './vendor/nar/toxic666.nar';
   delete_storage = function() {
     if (window.confirm('本当に削除しますか？')) {
       try {
