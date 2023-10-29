@@ -125,7 +125,7 @@ $(function() {
       return con.error(args.join(''));
     };
   })(this);
-  fs_root = 'ikagaka';
+  fs_root = 'mayura';
   balloon_nar = './vendor/nar/freeballoon_nisebagu4.nar';
   ghost_nar = './vendor/nar/mayura_v330.nar';
   ghost_nar2 = './vendor/nar/toxic666.nar';
